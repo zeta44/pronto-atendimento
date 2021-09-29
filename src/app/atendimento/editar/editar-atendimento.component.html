@@ -1,3 +1,5 @@
+<h1>Editar Atendimento</h1>
+
 <div class="well">
     <form #formAtendimento="ngForm">
         <div class="form-group">
@@ -9,7 +11,7 @@
                     Digite o atendimento.
                 </div>
                 <div [hidden]="!nome.errors.minlength">
-                    O atendimento deve conter ao menos 5 caracteres.
+                    O nome deve conter ao menos 5 caracteres.
                 </div>
             </div>
         </div>
